@@ -1,8 +1,17 @@
 {
   "name": "sas/override-grid",
   "description": "A sample plugin to override the slot element",
+  "version": "v1.0.0",
   "type": "shopware-platform-plugin",
-  "license": "MIT",
+  "license":"proprietary",
+  "authors": [
+    {
+      "name": "SMK Shape & Shift LTD",
+      "role": "Manufacturer",
+      "email": "hello@shapeandshift.dev",
+      "homepage": "https://shapeandshift.dev/"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "SasOverrideGrid\\": "src/"
