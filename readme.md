@@ -29,9 +29,9 @@ and get the name of the sub-categories of the folders
 The first thing I will do is create the files as same as the directory with the grid I want to modify
 
 ```
-src/Resources/app/administration/src/module/sw-cms/blocks/grid/2-8-2/component/index.js
-src/Resources/app/administration/src/module/sw-cms/blocks/grid/2-8-2/component/sas-cms-grid-block-2-8-2-column.html.twig
-src/Resources/app/administration/src/main.js
+- src/Resources/app/administration/src/module/sw-cms/blocks/grid/2-8-2/component/index.js
+- src/Resources/app/administration/src/module/sw-cms/blocks/grid/2-8-2/component/sas-cms-grid-block-2-8-2-column.html.twig
+- src/Resources/app/administration/src/main.js
 ```
 
 ---------------
@@ -75,7 +75,7 @@ If you don't know how to get the name, so you can debug with this console in you
 ...
 ```
 
-Please keep in mind that, If you change the slot key name, add more or delete. you have to override the slot tags like above
+Please keep in mind. If you change the slot key name, add more or delete, so you have to override the slot tags like above
 
 **File: `src/Resources/app/administration/src/main.js`**
 
