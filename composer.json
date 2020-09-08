@@ -1,0 +1,18 @@
+{
+  "name": "sas/override-grid",
+  "description": "A sample plugin to override the slot element",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SasOverrideGrid\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SasOverrideGrid\\SasOverrideGrid",
+    "label": {
+      "de-DE": "Override slot of the grid plugin",
+      "en-GB": "Override slot of the grid plugin"
+    }
+  }
+}
